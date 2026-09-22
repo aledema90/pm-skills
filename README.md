@@ -22,15 +22,13 @@ cases, and a human fallback.
 
 ### 🔍 refine-user-stories
 
-**Problem:** A vague ticket gets built the wrong way because nobody asked the obvious
-questions first.
+**Problem:** A vague ticket gets built the wrong way because nobody asked the obvious questions first.
 **Fix:** Asks who uses it, what data, what happens on failure — before writing
 acceptance criteria.
 
-### ✋ reply-to-stakeholders
+### ✋ the-diplomatic-no
 
-**Problem:** Saying "no" or "not now" to a stakeholder without sounding dismissive
-or vague.
+**Problem:** Saying "no" or "not now" to a stakeholder without sounding dismissive or vague.
 **Fix:** A 3-line answer: what's possible, what isn't and why, what you propose instead.
 
 ## Install
