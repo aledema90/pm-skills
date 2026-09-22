@@ -7,25 +7,28 @@ a hypothetical use case. Install what's useful, ignore the rest.
 
 ## Skills
 
-### 🗣️ explain-it-to-me
+### 🗣️ translate-for-managers
+
 **Problem:** "Explain it to me like I'm 5" — upper management asks for the plain-English
 or analogy version of a technical feature, and you improvise it on the spot, badly.
-**Fix:** One sentence on what changes, one analogy (with its limit stated), the impact,
-and the decision you're asking for.
+**Fix:** Four parts answer: one sentence on what changes, one analogy (with its limit stated), the impact,and the decision you're asking for.
 
 ### 📋 spec-feature-ai
+
 **Problem:** "I want an AI assistant that does X" turns into a spec with no success
 metric and no failure plan.
 **Fix:** Turns a one-line AI feature idea into a spec with a quality metric, failure
 cases, and a human fallback.
 
 ### 🔍 refine-user-stories
+
 **Problem:** A vague ticket gets built the wrong way because nobody asked the obvious
 questions first.
 **Fix:** Asks who uses it, what data, what happens on failure — before writing
 acceptance criteria.
 
 ### ✋ reply-to-stakeholders
+
 **Problem:** Saying "no" or "not now" to a stakeholder without sounding dismissive
 or vague.
 **Fix:** A 3-line answer: what's possible, what isn't and why, what you propose instead.
