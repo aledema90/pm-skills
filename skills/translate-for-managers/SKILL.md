@@ -1,7 +1,7 @@
 ---
 name: translate-for-managers
 description: Turns a technical feature or idea into a plain-English ASD-STE100 pitch for non-operational stakeholders — one sentence, one analogy, the impact, and the decision you need. Use when someone asks "translate it for my manager", "explain it like I'm 5" or for an analogy.
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 Before writing anything, ask two questions if they're not already clear from context:
