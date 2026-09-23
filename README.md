@@ -5,8 +5,10 @@ My take on Claude Agent Skills for Product Owners and Product Managers.
 Every skill here comes from a real, recurring problem in day-to-day PO work — not a
 hypothetical use case. Install what's useful, ignore the rest.
 
-All skills are **invoked explicitly** (`disable-model-invocation: true`). Claude
-won't fire them on its own — you ask for them by name when you want them.
+`the-diplomatic-no` and `meeting-to-obsidian` are **invoked explicitly**
+(`disable-model-invocation: true`): Claude won't fire them on its own, you ask for
+them by name. `translate-for-managers` can also trigger by itself when you ask for
+the plain-English version of something technical.
 
 ## Skills
 
@@ -16,16 +18,16 @@ won't fire them on its own — you ask for them by name when you want them.
 plain-English version of a technical feature, and you improvise it on the spot,
 badly.
 
-**Fix:** A four-part answer — one sentence on what changes, one analogy with its
-limits stated, the impact, and the decision you're asking for.
+**Fix:** A short message that reads like you wrote it: what changes, an analogy
+with its limits stated, the impact, and the decision you're asking for.
 
 ### ✋ the-diplomatic-no
 
 **Problem:** Saying "no" or "not now" to a stakeholder without sounding dismissive
 or vague.
 
-**Fix:** A three-line reply — what's possible, what isn't and the real constraint
-behind it, and what you propose instead.
+**Fix:** A short reply that reads like you wrote it: what's possible, what isn't
+and the real constraint behind it, and what you propose instead.
 
 ### 🗂️ meeting-to-obsidian
 
