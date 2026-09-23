@@ -1,14 +1,13 @@
 name: Release
 
-# Parte solo quando pushi un tag che inizia per "v" (v0.1.0, v0.2.0, v1.0.0...).
-# Un push normale su main non fa scattare niente.
+# Runs only when a tag starting with "v" is pushed (v0.1.0, v0.2.0, v1.0.0...).
+# Ordinary pushes to main don't trigger anything.
 on:
   push:
     tags:
       - "v*"
 
-# Di default il workflow può solo leggere il repo.
-# Per creare una release deve poterci scrivere.
+# Workflows are read-only by default; creating a release needs write access.
 permissions:
   contents: write
 
@@ -17,26 +16,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Scarica il codice del repo dentro la macchina temporanea.
-      #    Senza questo passo la macchina è vuota.
+      # 1. Check the repo out into the runner, which otherwise starts empty.
       - uses: actions/checkout@v7
 
-      # 2. Crea uno zip per ogni cartella dentro skills/.
-      #    Aggiungi una skill domani e finisce nella release senza toccare questo file.
-      - name: Crea uno zip per skill
+      # 2. Build one zip per folder in skills/.
+      #    Add a skill tomorrow and it ships without touching this file.
+      - name: Build one zip per skill
         run: |
           mkdir -p dist
           cd skills
           for d in */; do
             name="${d%/}"
             zip -q -r "../dist/${name}.zip" "$name" -x '.*'
-            echo "creato ${name}.zip"
+            echo "built ${name}.zip"
           done
 
-      # 3. Pubblica la release sul tag appena pushato e allega gli zip.
-      #    fail_on_unmatched_files: se il passo 2 non ha prodotto niente,
-      #    meglio un errore rosso che una release vuota pubblicata in silenzio.
-      - name: Pubblica la release
+      # 3. Publish the release on the pushed tag with the zips attached.
+      #    fail_on_unmatched_files: if step 2 produced nothing, fail loudly
+      #    rather than publishing an empty release in silence.
+      - name: Publish release
         uses: softprops/action-gh-release@v3
         with:
           files: dist/*.zip
