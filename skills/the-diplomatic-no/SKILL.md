@@ -1,8 +1,10 @@
 ---
 name: the-diplomatic-no
-description: Elaborate a structured reply in a negative way to a stakeholder who made a request. Motivate your 'no' to avoid sounding dismissive but giving real reasons.
+description: Turns a request you have to decline into a short reply written the way a person would send it — what you can do, what you can't and the real reason, and what you propose instead — so the "no" lands as a considered decision rather than a brush-off.
 disable-model-invocation: true
 ---
+
+# The Diplomatic No
 
 Before writing anything, ask if not already clear from context:
 
@@ -11,24 +13,40 @@ Before writing anything, ask if not already clear from context:
    not "we're busy")
 3. Is there a partial yes or a later date, or is it a full no?
 
-Then produce a reply of exactly three lines, in this order. No preamble, no
-apology beyond one short acknowledgment if needed.
+Then write a short reply that moves through three beats, in this order. These are
+the beats of the reply, not its headings: the stakeholder should never see them
+named. No preamble, and no apology beyond one short acknowledgment if it fits.
 
-**1. What's possible** — the part you can actually commit to, if any. If the answer
-is a full no, say what you _can_ offer instead (a review, a smaller version, input
-into planning) rather than leaving this line empty.
+**What's possible.** Lead with the part you can actually commit to. If the answer
+is a full no, lead with what you _can_ offer instead (a review, a smaller version,
+input into planning), so the reply never opens on the refusal.
 
-**2. What isn't, and why** — the real constraint, stated as a fact, not an opinion.
+**What isn't, and why.** The real constraint, stated as a fact, not an opinion.
 "We don't have capacity until Q2 because the payments migration has priority" beats
 "we're too busy right now." A reason the stakeholder can't verify or push back on
 isn't a real reason — don't write one you can't back up.
 
-**3. What you propose instead** — a concrete next step: a date, a smaller ask, a
-person to talk to, or a condition under which the answer changes. Never end on the
-no alone.
+**What you propose instead.** A concrete next step: a date, a smaller ask, a person
+to talk to, or a condition under which the answer changes. Never end on the no
+alone. Ending on a question that hands them the trade-off works well.
 
-Keep each line to one or two sentences. Cut adjectives and hedging ("I think",
-"maybe", "sort of") before cutting substance.
+## How it should sound
+
+The output is a reply the user will paste and send as themselves, so it has to
+read like they typed it.
+
+- **No labels, bold, headers, or bullets in the output.** The order of the beats is
+  the structure; ordinary transitions carry it ("…though", "What I'd suggest
+  is…", "Would that work?").
+- One short paragraph, 3–5 sentences.
+- First person, in the register of the channel: Slack is shorter and looser than
+  email. Contractions are fine. Plain words over formal ones.
+- Cut hedging ("I think", "maybe", "sort of") before cutting substance. Cut
+  adjectives before either.
+- Skip the usual AI tells: no "I appreciate you reaching out", no "I completely
+  understand", no closing recap, no stacked dashes.
+- Write in the language of the conversation unless told otherwise.
+- Deliver only the reply, ready to paste. No preface explaining what it is.
 
 ## Example
 
@@ -36,11 +54,9 @@ Input: "The client wants feature X delivered by June."
 
 Output:
 
-- **What's possible:** We can scope and design X by June, so it's ready to build
-  as soon as capacity frees up.
-- **What isn't, and why:** Full delivery by June isn't realistic — the team is
-  finishing the Q2 migration through May, and X needs backend work from the same
-  two engineers.
-- **What I propose:** Delivery in July instead, or a trimmed version (no export,
-  just the core flow) by June if the June date is fixed. Which matters more —
-  the date or the full scope?
+> We can get X scoped and designed by June, so it's ready to build as soon as the
+> team frees up. Full delivery by June isn't realistic though: the team is on the Q2
+> migration through May, and X needs backend work from the same two engineers. What
+> I'd suggest is July for the full thing, or a trimmed version by June (just the core
+> flow, no export) if the date can't move. Which matters more to the client, the
+> date or the full scope?
