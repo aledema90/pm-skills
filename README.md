@@ -2,7 +2,7 @@
 
 My take on Claude Agent Skills for Product Owners and Product Managers.
 
-Every skill here comes from a real, recurring problem in day-to-day PO work — not a
+Every skill here comes from a real, recurring problem in day-to-day product work — not a
 hypothetical use case. Install what's useful, ignore the rest.
 
 `the-diplomatic-no`, `meeting-to-obsidian` and `spec-feature-ai` are **invoked explicitly**
