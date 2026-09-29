@@ -6,6 +6,12 @@ disable-model-invocation: true
 
 # Meeting to Obsidian
 
+| Field | Value |
+|---|---|
+| name | meeting-to-obsidian |
+| description | Turns recorded-meeting transcripts from a given period into Obsidian notes — one compact note per meeting, filed into a project subfolder — and appends the action items you own to a to-do list, with priority markers kept up to date on re-runs. Requires the Configuration block below to be filled in before first use. |
+| disable-model-invocation | true |
+
 Turns meeting transcripts into permanent Obsidian notes and keeps a personal to-do list in sync with the action items you own.
 
 The notes are **not** verbatim transcripts. Each one is a short Overview paragraph plus a Key Points list — the substance someone would want to recall six months later, not the raw conversation. The transcript stays wherever it already lives.

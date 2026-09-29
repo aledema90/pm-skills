@@ -5,7 +5,7 @@ My take on Claude Agent Skills for Product Owners and Product Managers.
 Every skill here comes from a real, recurring problem in day-to-day PO work — not a
 hypothetical use case. Install what's useful, ignore the rest.
 
-`the-diplomatic-no` and `meeting-to-obsidian` are **invoked explicitly**
+`the-diplomatic-no`, `meeting-to-obsidian` and `spec-feature-ai` are **invoked explicitly**
 (`disable-model-invocation: true`): Claude won't fire them on its own, you ask for
 them by name. `translate-for-managers` can also trigger by itself when you ask for
 the plain-English version of something technical.
@@ -43,12 +43,18 @@ markers that stay current on re-runs.
 > as it appears in action items. It's source-agnostic — a notetaker bot that emails
 > summaries, a folder of transcript files, an MCP connector, or text you paste in.
 
+### 🧪 spec-feature-ai
+
+**Problem:** AI feature ideas arrive as one line, and the spec only covers the happy
+path — nobody defines what "good enough" means or what happens when it's wrong.
+
+**Fix:** A short spec with a measurable quality metric and target, the failure cases
+that matter, and the human fallback for each, plus rollout and rollback thresholds.
+
 ## Coming soon
 
 Planned, not written yet — don't expect to find them in the repo or the releases.
 
-- **spec-feature-ai** — turns a one-line AI feature idea into a spec with a quality
-  metric, failure cases, and a human fallback.
 - **refine-user-stories** — asks who uses it, what data, what happens on failure,
   before writing acceptance criteria.
 

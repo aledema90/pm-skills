@@ -6,6 +6,12 @@ disable-model-invocation: true
 
 # The Diplomatic No
 
+| Field | Value |
+|---|---|
+| name | the-diplomatic-no |
+| description | Turns a request you have to decline into a short reply written the way a person would send it — what you can do, what you can't and the real reason, and what you propose instead — so the "no" lands as a considered decision rather than a brush-off. |
+| disable-model-invocation | true |
+
 Before writing anything, ask if not already clear from context:
 
 1. What exactly did they ask for, and by when?
