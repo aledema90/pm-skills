@@ -12,7 +12,9 @@ the plain-English version of something technical.
 
 ## Skills
 
-### 🗣️ translate-for-managers
+### Stakeholder communication
+
+#### 🗣️ translate-for-managers
 
 **Problem:** "Explain it to me like I'm 5" — upper management asks for the
 plain-English version of a technical feature, and you improvise it on the spot,
@@ -21,7 +23,7 @@ badly.
 **Fix:** A short message that reads like you wrote it: what changes, an analogy
 with its limits stated, the impact, and the decision you're asking for.
 
-### ✋ the-diplomatic-no
+#### ✋ the-diplomatic-no
 
 **Problem:** Saying "no" or "not now" to a stakeholder without sounding dismissive
 or vague.
@@ -29,7 +31,9 @@ or vague.
 **Fix:** A short reply that reads like you wrote it: what's possible, what isn't
 and the real constraint behind it, and what you propose instead.
 
-### 🗂️ meeting-to-obsidian
+### Meetings & decisions
+
+#### 🗂️ meeting-to-obsidian
 
 **Problem:** Meeting transcripts pile up somewhere nobody reads, and the action
 items you personally own get lost in them.
@@ -43,7 +47,9 @@ markers that stay current on re-runs.
 > as it appears in action items. It's source-agnostic — a notetaker bot that emails
 > summaries, a folder of transcript files, an MCP connector, or text you paste in.
 
-### 🧪 spec-feature-ai
+### Product work
+
+#### 🧪 spec-feature-ai
 
 **Problem:** AI feature ideas arrive as one line, and the spec only covers the happy
 path — nobody defines what "good enough" means or what happens when it's wrong.
@@ -55,8 +61,29 @@ that matter, and the human fallback for each, plus rollout and rollback threshol
 
 Planned, not written yet — don't expect to find them in the repo or the releases.
 
+**Stakeholder communication**
+
+- **bad-news-early** — announces a delay or a problem before it becomes a surprise:
+  what happened, the impact, what you're already doing, and what you need, without
+  minimising or dramatising.
+
+**Meetings & decisions**
+
+- **meeting-prep-one-pager** — a five-line brief before a meeting: what you want out
+  of it, who decides, and the objections to expect.
+- **follow-up-mail** — the message after a meeting: what was decided, who does what,
+  and by when.
+
+**Product work**
+
 - **refine-user-stories** — asks who uses it, what data, what happens on failure,
   before writing acceptance criteria.
+
+**Personal workflow**
+
+- **weekly-note-to-self** — turns the week's chaos into a few lines: what you got
+  done, what's blocked, and what you want from Monday. Useful raw material for 1:1s
+  and reviews.
 
 ## Install
 
