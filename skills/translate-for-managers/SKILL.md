@@ -6,6 +6,12 @@ disable-model-invocation: false
 
 # Translate for Managers
 
+| Field | Value |
+|---|---|
+| name | translate-for-managers |
+| description | Turns a technical feature or idea into a short, plain-English message for a non-technical stakeholder, written the way a person would say it — what changes, an analogy with its limit, the impact, and the decision you need. Use when someone asks to "translate it for my manager", to "explain it like I'm 5", or for an analogy for a technical feature. |
+| disable-model-invocation | false |
+
 Before writing anything, ask two questions if they're not already clear from context:
 
 1. Who is this for? (their role, how technical they are)
